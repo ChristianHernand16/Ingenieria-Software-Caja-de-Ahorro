@@ -39,7 +39,6 @@ public class ControladorSecretaria {
         Query query = em.createNamedQuery("Secretaria.findAll");
         return query.getResultList();
     }
-
     public Secretaria findByID(int id) {
         Secretaria u = em.find(Secretaria.class, id);
         if (u == null) {
