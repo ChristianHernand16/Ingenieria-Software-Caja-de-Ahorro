@@ -367,7 +367,6 @@ public class VistaPrestamo extends javax.swing.JInternalFrame {
                 .addContainerGap(38, Short.MAX_VALUE))
         );
 
-        btnActualizar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/calcular.png"))); // NOI18N
         btnActualizar.setText("CALCULAR");
         btnActualizar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -375,7 +374,6 @@ public class VistaPrestamo extends javax.swing.JInternalFrame {
             }
         });
 
-        btnGuardar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/guardar.png"))); // NOI18N
         btnGuardar.setText("GUARDAR");
         btnGuardar.setEnabled(false);
         btnGuardar.addActionListener(new java.awt.event.ActionListener() {
@@ -475,7 +473,6 @@ public class VistaPrestamo extends javax.swing.JInternalFrame {
 
         jPanel6.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(43, 56, 919, 170));
 
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/garbage.png"))); // NOI18N
         jButton1.setText("ELIMINAR");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -491,9 +488,7 @@ public class VistaPrestamo extends javax.swing.JInternalFrame {
         jLabel6.setFont(new java.awt.Font("Sitka Heading", 2, 24)); // NOI18N
         jLabel6.setText("CONTROLADOR PRESTAMO");
         getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(32, 11, -1, -1));
-
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/kardex.png"))); // NOI18N
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 0, 130, 100));
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 0, 130, 100));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

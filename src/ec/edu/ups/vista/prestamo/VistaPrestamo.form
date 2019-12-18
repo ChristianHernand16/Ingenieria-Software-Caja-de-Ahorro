@@ -498,9 +498,6 @@
             </Container>
             <Component class="javax.swing.JButton" name="btnActualizar">
               <Properties>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes/calcular.png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="CALCULAR"/>
               </Properties>
               <Events>
@@ -509,9 +506,6 @@
             </Component>
             <Component class="javax.swing.JButton" name="btnGuardar">
               <Properties>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes/guardar.png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="GUARDAR"/>
                 <Property name="enabled" type="boolean" value="false"/>
               </Properties>
@@ -704,9 +698,6 @@
             </Container>
             <Component class="javax.swing.JButton" name="jButton1">
               <Properties>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes/garbage.png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="ELIMINAR"/>
               </Properties>
               <Events>
@@ -736,14 +727,9 @@
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel5">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/imagenes/kardex.png"/>
-        </Property>
-      </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="350" y="0" width="130" height="100"/>
+          <AbsoluteConstraints x="360" y="0" width="130" height="100"/>
         </Constraint>
       </Constraints>
     </Component>

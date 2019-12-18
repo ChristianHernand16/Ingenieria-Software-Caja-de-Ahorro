@@ -127,7 +127,6 @@ public class AgregarAdministradores extends javax.swing.JInternalFrame {
         listadeClientes.setFont(new java.awt.Font("Verdana", 3, 14)); // NOI18N
         listadeClientes.setText("LISTA DE USUARIOS QUE NO SON ADMINISTRADORES");
 
-        btnActualizar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/actualizar.png"))); // NOI18N
         btnActualizar.setText("ACTUALIZAR");
         btnActualizar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
