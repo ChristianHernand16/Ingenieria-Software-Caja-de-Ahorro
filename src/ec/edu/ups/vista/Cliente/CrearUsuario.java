@@ -10,10 +10,12 @@ import java.awt.event.KeyEvent;
 import java.sql.SQLException;
 import javax.swing.JOptionPane;
 import ec.edu.ups.modelo.Persona;
-
 /**
  *
- * @author vinic
+ * @author christian Hernandez
+ * Vinicio Barzallo
+ * Mario Torres
+ * Edison Huinaizaca
  */
 public class CrearUsuario extends javax.swing.JInternalFrame {
 

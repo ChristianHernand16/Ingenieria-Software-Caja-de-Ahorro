@@ -22,7 +22,10 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author vinic
+ * @author christian Hernandez
+ * Vinicio Barzallo
+ * Mario Torres
+ * Edison Huinaizaca
  */
 public class VistaLibretas extends javax.swing.JInternalFrame {
 

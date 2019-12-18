@@ -12,7 +12,10 @@ import ec.edu.ups.modelo.Amortizacion;
 
 /**
  *
- * @author gusta
+ * @author christian Hernandez
+ * Vinicio Barzallo
+ * Mario Torres
+ * Edison Huinaizaca
  */
 public class ControladorAmortizacion {
 

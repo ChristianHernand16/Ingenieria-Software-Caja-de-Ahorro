@@ -11,7 +11,10 @@ import ec.edu.ups.vista.prestamo.PrestamoUsuario;
 
 /**
  *
- * @author Marcela
+ * @author christian Hernandez
+ * Vinicio Barzallo
+ * Mario Torres
+ * Edison Huinaizaca
  */
 public class VistaUsuario extends javax.swing.JFrame {
 

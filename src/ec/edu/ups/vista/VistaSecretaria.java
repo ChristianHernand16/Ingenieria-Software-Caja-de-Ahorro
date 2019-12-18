@@ -16,7 +16,10 @@ import ec.edu.ups.vista.prestamo.CobrarPrestamo;
 
 /**
  *
- * @author vinic
+ * @author christian Hernandez
+ * Vinicio Barzallo
+ * Mario Torres
+ * Edison Huinaizaca
  */
 public class VistaSecretaria extends javax.swing.JFrame {
 

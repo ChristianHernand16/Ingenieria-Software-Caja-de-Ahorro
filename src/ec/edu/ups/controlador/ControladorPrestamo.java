@@ -15,7 +15,10 @@ import ec.edu.ups.modelo.Persona;
 
 /**
  *
- * @author gusta
+ * @author christian Hernandez
+ * Vinicio Barzallo
+ * Mario Torres
+ * Edison Huinaizaca
  */
 public class ControladorPrestamo {
 

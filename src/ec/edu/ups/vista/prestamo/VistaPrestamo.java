@@ -43,8 +43,10 @@ import ec.edu.ups.modelo.Persona;
 
 /**
  *
- * @author VINICIO
- *
+ * @author christian Hernandez
+ * Vinicio Barzallo
+ * Mario Torres
+ * Edison Huinaizaca
  */
 public class VistaPrestamo extends javax.swing.JInternalFrame {
 

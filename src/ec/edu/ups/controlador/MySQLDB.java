@@ -11,7 +11,10 @@ import javax.persistence.Persistence;
 
 /**
  *
- * @author gusta
+ * @author christian Hernandez
+ * Vinicio Barzallo
+ * Mario Torres
+ * Edison Huinaizaca
  */
 public class MySQLDB {
 

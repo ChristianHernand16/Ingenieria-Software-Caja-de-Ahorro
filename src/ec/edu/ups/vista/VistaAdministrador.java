@@ -11,10 +11,12 @@ import ec.edu.ups.vista.prestamo.VistaPrestamo;
 import ec.edu.ups.vista.puestos.AgregarAdministradores;
 import ec.edu.ups.vista.puestos.AgregarSecretarias;
 import ec.edu.ups.vista.puestos.AprobarPrestamos;
-
 /**
  *
- * @author vinic
+ * @author christian Hernandez
+ * Vinicio Barzallo
+ * Mario Torres
+ * Edison Huinaizaca
  */
 public class VistaAdministrador extends javax.swing.JFrame {
 

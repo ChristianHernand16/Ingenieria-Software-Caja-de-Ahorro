@@ -18,7 +18,10 @@ import ec.edu.ups.modelo.Persona;
 
 /**
  *
- * @author vinic
+ * @author christian Hernandez
+ * Vinicio Barzallo
+ * Mario Torres
+ * Edison Huinaizaca
  */
 public class BuscarUsuario extends javax.swing.JInternalFrame {
 

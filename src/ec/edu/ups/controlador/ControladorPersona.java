@@ -11,10 +11,12 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityNotFoundException;
 import javax.persistence.TypedQuery;
 import ec.edu.ups.modelo.Persona;
-
 /**
  *
- * @author gusta
+ * @author christian Hernandez
+ * Vinicio Barzallo
+ * Mario Torres
+ * Edison Huinaizaca
  */
 public class ControladorPersona {
 

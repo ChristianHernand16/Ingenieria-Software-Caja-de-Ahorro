@@ -23,7 +23,10 @@ import javax.xml.bind.annotation.XmlTransient;
 
 /**
  *
- * @author vinic
+ * @author christian Hernandez
+ * Vinicio Barzallo
+ * Mario Torres
+ * Edison Huinaizaca
  */
 @Entity
 @Table(name = "persona")

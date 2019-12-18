@@ -14,7 +14,10 @@ import ec.edu.ups.modelo.Ahorro;
 
 /**
  *
- * @author gusta
+ * @author christian Hernandez
+ * Vinicio Barzallo
+ * Mario Torres
+ * Edison Huinaizaca
  */
 public class ControladorAhorro {
 

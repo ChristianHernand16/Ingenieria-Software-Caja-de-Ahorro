@@ -14,7 +14,10 @@ import ec.edu.ups.modelo.Empresa;
 
 /**
  *
- * @author vinic
+ * @author christian Hernandez
+ * Vinicio Barzallo
+ * Mario Torres
+ * Edison Huinaizaca
  */
 public class EditarFundacion extends javax.swing.JInternalFrame {
 

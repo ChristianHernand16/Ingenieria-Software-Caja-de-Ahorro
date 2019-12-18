@@ -14,7 +14,10 @@ import ec.edu.ups.modelo.Secretaria;
 
 /**
  *
- * @author gusta
+ * @author christian Hernandez
+ * Vinicio Barzallo
+ * Mario Torres
+ * Edison Huinaizaca
  */
 public class ControladorSecretaria {
 
