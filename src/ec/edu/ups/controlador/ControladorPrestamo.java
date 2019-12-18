@@ -20,7 +20,6 @@ import ec.edu.ups.modelo.Persona;
  * Edison Huinaizaca
  */
 public class ControladorPrestamo {
-
     EntityManager em;
 
     public ControladorPrestamo() {
