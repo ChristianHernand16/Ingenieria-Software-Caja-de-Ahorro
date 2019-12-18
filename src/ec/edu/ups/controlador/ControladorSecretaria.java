@@ -47,7 +47,6 @@ public class ControladorSecretaria {
         }
         return u;
     }
-
     public boolean eliminar(int id) {
         try {
             em.getTransaction().begin();
