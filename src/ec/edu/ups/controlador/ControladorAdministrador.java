@@ -11,7 +11,6 @@ import javax.persistence.EntityNotFoundException;
 import javax.persistence.Query;
 import javax.persistence.TypedQuery;
 import ec.edu.ups.modelo.Administrador;
-
 /**
  *
  * @author christian Hernandez
