@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package ec.edu.ups.controlador;
-
 import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityNotFoundException;
