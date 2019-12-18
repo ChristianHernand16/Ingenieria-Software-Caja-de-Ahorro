@@ -80,7 +80,6 @@ public class ControladorPrestamo {
         }
         return true;
     }
-
     public boolean edit(Prestamo u) {
         try {
             em.getTransaction().begin();
