@@ -81,9 +81,6 @@
           <SubComponents>
             <Component class="javax.swing.JButton" name="buscar1">
               <Properties>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes/produ_1.png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="MIS DATOS"/>
               </Properties>
               <Events>
@@ -92,9 +89,6 @@
             </Component>
             <Component class="javax.swing.JButton" name="buscar2">
               <Properties>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes/cobro.png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="MIS PRESTAMOS"/>
               </Properties>
               <Events>

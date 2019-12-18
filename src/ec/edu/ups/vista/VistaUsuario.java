@@ -50,7 +50,6 @@ public class VistaUsuario extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        buscar1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/produ_1.png"))); // NOI18N
         buscar1.setText("MIS DATOS");
         buscar1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -58,7 +57,6 @@ public class VistaUsuario extends javax.swing.JFrame {
             }
         });
 
-        buscar2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/cobro.png"))); // NOI18N
         buscar2.setText("MIS PRESTAMOS");
         buscar2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

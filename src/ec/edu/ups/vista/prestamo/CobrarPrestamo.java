@@ -205,7 +205,6 @@ public class CobrarPrestamo extends javax.swing.JInternalFrame {
         });
         getContentPane().add(txtCedula, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 10, 153, -1));
 
-        buscar1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/buscar.png"))); // NOI18N
         buscar1.setText("BUSCAR");
         buscar1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

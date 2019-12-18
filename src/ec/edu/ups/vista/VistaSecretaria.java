@@ -55,7 +55,6 @@ public class VistaSecretaria extends javax.swing.JFrame {
 
         fondo.setDoubleBuffered(true);
 
-        crear.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/agregar.png"))); // NOI18N
         crear.setText("CREAR");
         crear.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -63,7 +62,6 @@ public class VistaSecretaria extends javax.swing.JFrame {
             }
         });
 
-        editar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/actualizar.png"))); // NOI18N
         editar.setText("EDITAR");
         editar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -71,7 +69,6 @@ public class VistaSecretaria extends javax.swing.JFrame {
             }
         });
 
-        buscar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/buscar.png"))); // NOI18N
         buscar.setText("BUSCAR");
         buscar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -79,7 +76,6 @@ public class VistaSecretaria extends javax.swing.JFrame {
             }
         });
 
-        listar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/listar.png"))); // NOI18N
         listar.setText("LISTAR");
         listar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -87,7 +83,6 @@ public class VistaSecretaria extends javax.swing.JFrame {
             }
         });
 
-        eliminar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/remover.png"))); // NOI18N
         eliminar.setText("ELMINAR");
         eliminar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -105,13 +100,12 @@ public class VistaSecretaria extends javax.swing.JFrame {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(buscar)
                         .addGap(18, 18, 18)
-                        .addComponent(listar)
-                        .addGap(42, 65, Short.MAX_VALUE))
+                        .addComponent(listar))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(crear)
                         .addGap(18, 18, 18)
-                        .addComponent(editar)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                        .addComponent(editar)))
+                .addContainerGap(65, Short.MAX_VALUE))
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(55, 55, 55)
                 .addComponent(eliminar)
@@ -133,7 +127,6 @@ public class VistaSecretaria extends javax.swing.JFrame {
                 .addContainerGap(20, Short.MAX_VALUE))
         );
 
-        buscar1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/cobro.png"))); // NOI18N
         buscar1.setText("COBRAS CUOTAS DE PRESTAMO");
         buscar1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -141,7 +134,6 @@ public class VistaSecretaria extends javax.swing.JFrame {
             }
         });
 
-        buscar3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/produ_1.png"))); // NOI18N
         buscar3.setText("COTROLADOR LIBRETAS");
         buscar3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -154,12 +146,13 @@ public class VistaSecretaria extends javax.swing.JFrame {
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(28, 28, 28)
-                .addComponent(buscar3)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(buscar1)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGap(28, 28, 28)
+                        .addComponent(buscar3))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(buscar1)))
                 .addContainerGap(24, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(

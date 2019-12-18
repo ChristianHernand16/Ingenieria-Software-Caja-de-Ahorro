@@ -92,7 +92,6 @@ public class EditarUsuario extends javax.swing.JInternalFrame {
         ingreseCedula.setText("INGRESE CEDULA: ");
         jPanel6.add(ingreseCedula, new org.netbeans.lib.awtextra.AbsoluteConstraints(16, 62, 164, 20));
 
-        buscar1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/buscar.png"))); // NOI18N
         buscar1.setText("BUSCAR");
         buscar1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -168,7 +167,6 @@ public class EditarUsuario extends javax.swing.JInternalFrame {
 
         jPanel6.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 100, -1, -1));
 
-        btnActualizar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/actualizar.png"))); // NOI18N
         btnActualizar.setText("ACTUALIZAR");
         btnActualizar.setEnabled(false);
         btnActualizar.addActionListener(new java.awt.event.ActionListener() {

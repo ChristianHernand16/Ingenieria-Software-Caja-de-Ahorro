@@ -142,7 +142,6 @@ public class EliminarUsuario extends javax.swing.JInternalFrame {
 
         jPanel6.add(panelBuscarCliente, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 100, -1, 300));
 
-        buscar1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/buscar.png"))); // NOI18N
         buscar1.setText("BUSCAR");
         buscar1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

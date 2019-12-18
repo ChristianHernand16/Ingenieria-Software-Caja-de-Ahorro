@@ -103,7 +103,6 @@ public class VistaLibretas extends javax.swing.JInternalFrame {
 
         btnGuardar.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         btnGuardar.setForeground(new java.awt.Color(0, 0, 255));
-        btnGuardar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/guardar.png"))); // NOI18N
         btnGuardar.setText("GUARDAR");
         btnGuardar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -249,7 +248,6 @@ public class VistaLibretas extends javax.swing.JInternalFrame {
             }
         });
 
-        buscar1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/buscar.png"))); // NOI18N
         buscar1.setText("BUSCAR");
         buscar1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -381,7 +379,6 @@ public class VistaLibretas extends javax.swing.JInternalFrame {
 
         btnGuardar1.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         btnGuardar1.setForeground(new java.awt.Color(0, 0, 255));
-        btnGuardar1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/actualizar.png"))); // NOI18N
         btnGuardar1.setText("actulizar");
         btnGuardar1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
