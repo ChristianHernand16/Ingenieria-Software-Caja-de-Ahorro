@@ -25,7 +25,6 @@ public class ControladorAdministrador {
     public ControladorAdministrador() {
         em = MySQLDB.init();
     }
-
     public void Crear(Administrador u) {
         try {
             em.getTransaction().begin();
