@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="CajaPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>ec.edu.ups.modelo.Cliente</class>
+    <class>ec.edu.ups.modelo.Ahorro</class>
+    <class>ec.edu.ups.modelo.Prestamo</class>
+    <class>ec.edu.ups.modelo.Secretaria</class>
+    <class>ec.edu.ups.modelo.Administrador</class>
+    <class>ec.edu.ups.modelo.Amortizacion</class>
+    <class>ec.edu.ups.modelo.Empresa</class>
+    <class>ec.edu.ups.modelo.Persona</class>
+    <class>ec.edu.ups.modelo.Libretas</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/CAJAAHORRO?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value=""/>
+    </properties>
+  </persistence-unit>
+</persistence>
