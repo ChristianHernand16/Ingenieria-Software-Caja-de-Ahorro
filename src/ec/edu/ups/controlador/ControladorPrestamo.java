@@ -12,7 +12,6 @@ import javax.persistence.Query;
 import javax.persistence.TypedQuery;
 import ec.edu.ups.modelo.Prestamo;
 import ec.edu.ups.modelo.Persona;
-
 /**
  *
  * @author christian Hernandez
