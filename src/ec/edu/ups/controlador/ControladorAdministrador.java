@@ -37,7 +37,6 @@ public class ControladorAdministrador {
         }
 
     }
-
     public List<Administrador> findAll() {
         Query query = em.createNamedQuery("Administrador.findAll");
         return query.getResultList();
